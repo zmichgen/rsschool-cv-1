@@ -141,7 +141,7 @@ header{
     width: 98%;
     background-color: beige;
     justify-content: space-around;
-    padding: 25px;
+    padding: 1%;
 }
 .foto
  img{
@@ -152,6 +152,7 @@ header{
     width: 320px;
     margin-top: 30px;
     text-align: center;
+    line-height: 150%;
    }
 .my_name,
  .first_name{
@@ -167,30 +168,108 @@ header{
     font-weight: 400;
     color: black;
 }
-section{
+main
+.common{
     display: flex;
-    margin: 0 auto;
-}
-section
+ }
+
+main
+.common
 .contacts{
     display: flex;
     background-color: rgb(208, 211, 212);
     width: 350px;
-    height: 450px;
+    height: 400px;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     line-height: 150%;
-    }
+    padding-top: 10px;
+}
 
-section
+.common
 .description{
     display: block;
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+    background-color: rgb(255, 225, 235);
+    padding-top: 10px;  
 }
-footer{
+
+.about_me,
+.text{
+  font-size: 20px;
+  color: limegreen;
+  text-align: center;
+}
+
+.about_me,
+.text,
+p{
+    text-indent:25px;
+    padding-left: 10px;
+}
+
+.common
+.description,
+.about_me,
+.description_text{
+    line-height: 150%;
+    font-size: 14px;
+    text-align: start;
+    color: black;
+}
+
+
+.list{
+    list-style: square;
+    padding-left: 25px;
+}
+
+.flex-li{
+    display: flex;
+    list-style: square;
+    align-items: center;
+}
+
+.list,
+.certificate{
+    padding-left: 35px;
+}
+
+footer
+.ft{
     display: flex;
     width: 98%;
     height: 90px;
     background-color: rgb(169, 205, 206);
     justify-content: space-around;
-    padding: 25px;
+    align-items: center;
+    padding: 1%;
+}
+footer
+.ft
+.github 
+a
+img{
+    font-size: 25px;
+    background-image: url(./github.png);
+    width: 50px;
+    height: 50px;
+}
+footer
+.year{
+    font-size: 25px;
+    color: crimson;
+}
+footer
+.ft
+.rss
+a
+img{
+    background-image: url(./github.png);
+    width: 120px;
+    height: 86px;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
