@@ -220,7 +220,7 @@ p{
 .description_text{
     line-height: 150%;
     font-size: 14px;
-    /* text-align: start; */
+    text-align: start;
     color: black;
 }
 
