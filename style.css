@@ -136,6 +136,10 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+
+.wrapper{
+    margin: 0 auto;
+}
 header{
     display: flex;
     width: 98%;
@@ -216,7 +220,7 @@ p{
 .description_text{
     line-height: 150%;
     font-size: 14px;
-    text-align: start;
+    /* text-align: start; */
     color: black;
 }
 

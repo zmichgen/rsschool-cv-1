@@ -26,7 +26,7 @@ I work in JSC " Plant of special automatics". As an engineer.
 - Russian
 - Belarusian
 - English
-  - ![certificate](Certificate.png)
+  - ![certificate](./img/Certificate.png)
 
 ### **My GitHub**
 
